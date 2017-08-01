@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taan.hasani.moein.pushups">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pushupman"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pushupman"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".number_of_pushups">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".pushup_activity_detail" />
+        <activity
+            android:name=".days_and_times"
+            android:label="@string/title_activity_days_and_times"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
